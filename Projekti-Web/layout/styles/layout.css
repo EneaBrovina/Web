@@ -1,12 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Jeren
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("font-awesome.min.css");
 @import url("custom.flexslider.css");
@@ -34,7 +26,7 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{}
+#header{margin-bottom: 20px;}
 
 #header #logo{margin:30px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
@@ -59,7 +51,7 @@ File: Layout CSS
 /* Content */
 .container .content{}
 
-.sectiontitle{display:block; max-width:65%; margin:0 auto 60px; text-align:center;}
+.sectiontitle{display:block; max-width:65%; margin:0 auto 60px; text-align:center;margin-top: 25px;}
 .sectiontitle *{margin:0;}
 
 .services li:nth-child(-n+3){margin-bottom:50px;}/* Adds bottom margin to the first three elements only */
@@ -333,6 +325,16 @@ tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}
 
+
+.submitbutton{
+	margin-top: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+.centered-form{
+	margin-left: auto;
+}
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
